@@ -145,6 +145,11 @@ textarea.form-control {
 
 /* Mobiles - max-width 480px */
 @media (max-width: 480px) {
+
+  .breadcrumb__thumb{
+    height: 25vh !important;
+  }
+
   .service-detail-page h2 {
     font-size: 1.3rem;
   }
