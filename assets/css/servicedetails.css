@@ -73,3 +73,108 @@ textarea.form-control {
 .text-primary {
   color: #007bff;
 }
+
+/* ===========================
+   Responsive Styles
+=========================== */
+
+/* Tablets (Portrait & Landscape) - max-width 1024px */
+@media (max-width: 1024px) {
+  .service-detail-page h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .container, .small-container {
+    width: 95% !important;
+  }
+
+  .addon-card img {
+    height: 100px;
+  }
+
+  .btn-warning, .btn-success {
+    padding: 8px 14px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablets - max-width 768px */
+@media (max-width: 768px) {
+
+  .breadcrumb__thumb {
+    height: 40vh !important;
+  }
+
+  .service-detail-page h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .addon-card img {
+    height: 90px;
+  }
+
+  .btn-warning, .btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .form-label {
+    font-size: 0.95rem;
+  }
+
+  textarea.form-control {
+    min-height: 80px;
+  }
+
+  .breadcrumb__title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .ctn-btn {
+    margin-bottom: 30px !important;
+  }
+}
+
+/* Mobiles - max-width 480px */
+@media (max-width: 480px) {
+  .service-detail-page h2 {
+    font-size: 1.3rem;
+  }
+
+  .addon-card img {
+    height: 70px;
+  }
+
+  .btn-warning, .btn-success {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  .form-label {
+    font-size: 0.85rem;
+  }
+
+  .breadcrumb__title {
+    font-size: 1.3rem;
+  }
+
+  .breadcrumb__menu ul li span {
+    font-size: 0.8rem;
+  }
+
+  .int-title {
+    font-size: 30px !important;
+  }
+
+  .prt-title {
+    font-size: 30px !important;
+  }
+}

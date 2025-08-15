@@ -4,12 +4,15 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Wotech - IT Service HTML Template</title>
+   <title>Excellent-Vision</title>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/logo/logo.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/v4-shims.min.css">
+
    <!-- CSS here -->
    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
@@ -21,6 +24,7 @@
    <link rel="stylesheet" href="assets/css/icomoon.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/servicedetails.css">
 </head>
 
 <body>
@@ -109,7 +113,7 @@
    <!-- Header area start -->
    <header>
       <div class="container-fluid bg-color-1">
-         <div class="header-top">
+         <!-- <div class="header-top">
             <div class="header-top-contact-info">
                <span class="email p-relative"><a href="mailto:info@wotech.com">info@wotech.com</a></span>
                <span class="time p-relative">Hours: Mon - Sat: 10.00 AM - 4.00 PM</span>
@@ -120,7 +124,7 @@
                <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
                <span><a href="#"><i class="fab fa-youtube"></i></a></span>
             </div>
-         </div>
+         </div> -->
       </div>
       <div id="header-sticky" class="header-area">
          <div class="large-container">
@@ -129,7 +133,7 @@
                   <div class="header-left">
                      <div class="header-logo">
                         <a href="index.html">
-                           <img src="assets/imgs/logo/logo.svg" alt="header logo">
+                           <img src="assets/imgs/logo/logo.png" alt="header logo" style="width: 100px; height: 100px;">
                         </a>
                      </div>                     
                   </div>                  
@@ -140,24 +144,18 @@
                               <ul>
                                  <li class="has-dropdown">
                                     <a href="index.html">Home</a>
-                                    <ul class="submenu">
-                                       <li><a href="index.html">Home One</a></li>
-                                       <li><a href="index-2.html">Home Two</a></li>
-                                       <li><a href="index-3.html">Home Three</a></li>
-                                       <li><a href="dark-home.html">Home Dark</a></li>
-                                    </ul>
                                  </li>  
+                                 <li class="active">
+                                    <a href="services.html">Services</a>
+                                    <!-- <ul class="submenu">
+                                       <li><a href="services.html">Services</a></li>
+                                       <li><a href="#">Service Details</a></li>
+                                    </ul> -->
+                                 </li>   
                                  <li>
                                     <a href="about.html">About</a>
-                                 </li>  
-                                 <li>
-                                    <a href="services.html">Services</a>
-                                    <ul class="submenu">
-                                       <li><a href="services.html">Services</a></li>
-                                       <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                 </li>                           
-                                 <li class="has-dropdown active">
+                                 </li>                        
+                                 <!-- <li class="has-dropdown">
                                     <a href="blog-grid.html">Pages</a>
                                     <ul class="submenu">
                                        <li class="has-dropdown"><a href="projects.html">Projects</a>
@@ -171,31 +169,31 @@
                                        <li><a href="faq.html">Faq's</a></li>
                                        <li><a href="error.html">Error Page</a></li>
                                     </ul>
-                                 </li>
-                                 <li class="has-dropdown">
+                                 </li> -->
+                                 <!-- <li class="has-dropdown">
                                     <a href="blog-grid.html">Blog</a>
                                     <ul class="submenu">
                                        <li><a href="blog-standard.html">Blog Default</a></li>
                                        <li><a href="blog-grid.html">Blog Grid</a></li>
                                        <li><a href="blog-details.html">Blog Details</a></li>
                                     </ul>
-                                 </li>
+                                 </li> -->
                                  <li>
                                     <a href="contact.html">Contact</a>
                                  </li>                                
                               </ul>
                            </nav>
                            <!-- for wp -->
-                           <div class="header__hamburger ml-50 d-none">
+                           <!-- <div class="header__hamburger ml-50 d-none">
                               <button type="button" class="hamburger-btn offcanvas-open-btn">
                                  <span>01</span>
                                  <span>01</span>
                                  <span>01</span>
                               </button>
-                           </div>
+                           </div> -->
                         </div>
                      </div>
-                     <div class="search-toggle-open header-search my-auto">
+                     <!-- <div class="search-toggle-open header-search my-auto">
                         <div class="search-icon">
                            <i class="icon-search"></i>
                         </div>
@@ -204,14 +202,14 @@
                         <div class="cart-icon">
                            <a href="#"><i class="icon-shopping-cart"></i></a>
                         </div>
-                     </div>
-                     <div class="header-action d-none d-xl-inline-flex gap-5">
+                     </div> -->
+                     <!-- <div class="header-action d-none d-xl-inline-flex gap-5">
                         <div class="header-link">
                            <a class="primary-btn-1 btn-hover" href="contact.html">
                               GET A QUOTE &nbsp; | <i class="icon-right-arrow"></i>
                               <span style="top: 147.172px; left: 108.5px;"></span>
                            </a>
-                        </div>
+                        </div> -->
                      </div>
                      <div class="header-action">
                         <div class="header-link-1">
@@ -220,7 +218,7 @@
                           </div>
                           <div class="content">
                            <span>Call Us Now</span>
-                              <h6><a href="tel:2085550112">+208-555-0112</a></h6>
+                              <h6><a href="tel:2085550112">+971-54-267-2535</a></h6>
                           </div>
                         </div>
                      </div>
@@ -244,18 +242,18 @@
    
  <!-- Breadcrumb area start --> 
 <div class="breadcrumb__area theme-bg-1 p-relative pt-160 pb-160">
-   <div class="breadcrumb__thumb" data-background="assets/imgs/resources/page-title-bg-1.png"></div>
-   <div class="breadcrumb__thumb_2" data-background="assets/imgs/resources/page-title-bg-2.png"></div>
+   <div class="breadcrumb__thumb"  style="padding: 60px; background-color: black; height: 50vh;"></div>
+   <!-- <div class="breadcrumb__thumb_2" data-background="assets/imgs/resources/page-title-bg-2.png"></div> -->
    <div class="small-container">
       <div class="row justify-content-center">
          <div class="col-xxl-12">
             <div class="breadcrumb__wrapper p-relative">
-               <h2 class="breadcrumb__title">Page Not Found</h2>
+               <h2 class="breadcrumb__title">Service Details</h2>
                <div class="breadcrumb__menu">
                   <nav>
                      <ul>
                         <li><span><a href="index.html">Home</a></span></li>
-                        <li><span>404</span></li>
+                        <li><span>Wallpaper Fixing</span></li>
                      </ul>
                   </nav>
                </div>
@@ -265,25 +263,125 @@
    </div>
 </div>
  <!-- Breadcrumb area end --> 
+<!-- Section 1: Intro -->
+<div class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-lg-6">
+      <h1 class="fw-bold display-4 mb-4">Expert in Wallpaper Fixing</h1>
+<p class="mb-4">
+  From bold statement walls to subtle textures, our wallpaper fixing services bring personality and style to your interiors. We ensure precise alignment, smooth finishes, and long-lasting results with premium materials and expert techniques.
+</p>
 
-<section class="error-page section-space text-center">
-   <div class="small-container">
-      <div class="row">
-         <div class="col-xxl-12">
-           <div class="error-image">
-            <img src="assets/imgs/resources/error.png" alt="">
-           </div>
-            <h4 class="mt-50 mb-50">Whoops! This Page got Lost in converstion</h4>
-            <div class="error-btn-box">
-               <a class="primary-btn-1 btn-hover" href="index.html">
-                  Go back to home &nbsp; | <i class="icon-right-arrow"></i>
-                  <span style="top: 147.172px; left: 108.5px;"></span>
-               </a>
-            </div>
-         </div>
+      <a href="contact.html" class="ctn-btn btn btn-dark" style="padding: 10px 20px 10px 20px; font-size: 15px;">
+        Contact Today <i class="bi bi-arrow-up-right"></i>
+      </a>
+    </div>
+    <div class="col-lg-6">
+      <img src="assets/imgs/service/wallpaperwork1.jpg" alt="Wallpaper Work" class="img-fluid rounded" />
+    </div>
+  </div>
+</div>
+
+<!-- Section 2: Benefits -->
+<div class="container py-5" style="width: 80%;">
+  <div class="text-center mb-5">
+    <p class="text-uppercase fw-bold mb-2" style="color:#fe6c0f">OPTIMIZE YOUR OPERATIONS</p>
+    <h2 class="fw-bold" style="font-size: 35px; letter-spacing: 1px;">Expert in Wallpaper Fixing</h2>
+    <p class=" fw-semibold" style="color: #85c82e;">EXPERT SOLUTIONS FOR SEAMLESS PERFORMANCE</p>
+<p class="text-muted" style="font-size: 14px; letter-spacing: 1px; align-items: center; text-align: center; justify-content: center;">
+  We provide professional wallpaper installation for residential and commercial spaces. Our skilled team ensures perfect placement, seamless finishes, and durable results that transform your walls into stunning focal points.
+</p>
+
+  </div>
+  </div>
+</div>
+
+<!-- Section 3: Installation and Maintenance Steps -->
+<div class="container-fluid bg-dark text-white py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="assets/imgs/service/wallpaperwork2.jpg" alt="Wallpaper Work" class="img-fluid rounded" />
       </div>
-   </div>
-</section>
+      <div class="col-lg-6">
+        <p class="text-uppercase fw-bold" style="color: #85c82e;">WHAT IT INVOLVES</p>
+        <h2 class="int-title fw-bold" style="color:#fe6c0f">INSTALLATION AND MAINTENANCE STEPS</h2>
+        <p class="fw-semibold" style="color: #85c82e;">SERVICE PROCESS OVERVIEW</p>
+        <div class="row">
+          <div class="col-sm-6 mb-4">
+            <h6 class="fw-bold text-white">Assessment</h6>
+            <p class="small text-white mb-0">We evaluate your needs and site conditions before installation.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h6 class="fw-bold text-white">Planning</h6>
+            <p class="small text-white mb-0">Detailed project planning ensures smooth execution.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h6 class="fw-bold text-white">Installation</h6>
+            <p class="small text-white mb-0">Our experts install equipment to the highest standards.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h6 class="fw-bold text-white">Maintenance</h6>
+            <p class="small text-white mb-0">Scheduled maintenance to keep your systems running smoothly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section 4: Portfolio Gallery -->
+<div class="container py-5" style="width: 80%;">
+  <h2 class="prt-title fw-bold">OUR PORTFOLIO</h2>
+  <p class="text-danger fw-semibold mb-4">GALLERY</p>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img src="assets/imgs/service/wallpaperwork3.jpg" alt="Portfolio 3" class="img-fluid rounded shadow-sm" />
+    </div>
+    <div class="col-md-4">
+      <img src="assets/imgs/service/wallpaperwork5.webp" alt="Portfolio 3" class="img-fluid rounded shadow-sm" />
+    </div>
+    <div class="col-md-4">
+      <img src="assets/imgs/service/wallpaper4.jpg" alt="Portfolio 3" class="img-fluid rounded shadow-sm" />
+    </div>
+  </div>
+</div>
+
+<!-- Section 5: Contact Form -->
+<div class="container py-5" style="width: 80%;">
+  <p class="text-uppercase text-warning fw-bold">GET IN TOUCH</p>
+  <h2 class="fw-bold" style="font-size: 20px; margin-bottom: 10px;">FILL THE FORM BELOW</h2>
+  <form>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" name="firstName" id="firstName" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" name="lastName" id="lastName" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" id="email" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" name="phone" id="phone" class="form-control" required>
+      </div>
+      <div class="col-12">
+        <label for="comments" class="form-label">Additional Comments</label>
+        <textarea name="comments" id="comments" class="form-control" rows="4"></textarea>
+      </div>
+      <div class="col-12 d-flex align-items-center justify-content-center" style="margin-top: 20px;">
+        <button type="submit" class="btn w-25" style="background: #fe6c0f; color: white; padding: auto; font-size: 18px;">
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
 
 
  </main>     
@@ -297,7 +395,7 @@
                   <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                      <div class="footer-widget-1">
                         <figure class="image">
-                           <img src="assets/imgs/logo/logo-white.svg" alt="">
+                           <img src="assets/imgs/logo/logo.png" alt="">
                         </figure>
                         <p class="mt-40 mb-40">
                            Phasellus ultricies aliquam volutpat 
@@ -312,48 +410,42 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6" style="margin-top: 110px; margin-left: 36px;">
                      <div class="footer-widget-2 pl-50">
                         <h4 class="mb-20 footer-title">Our Services</h4>
-                       <ul class="service-list">
-                           <li><a href="service-details.html">IT Management</a></li>
-                           <li><a href="service-details.html">SEO Optimization</a></li>
-                           <li><a href="service-details.html">Web Development</a></li>
-                           <li><a href="service-details.html">Cyber Security</a></li>
-                           <li><a href="service-details.html">Data Security</a></li>
+                        <ul class="service-list">
+                           <li><a href="#">Plumbing & Sanitary Installation</a></li>
+                           <li><a href="#">Plaster Works</a></li>
+                           <li><a href="#">Carpentry & Wood Flooring Works</a></li>
+                           <li><a href="#">Floor & Wood Flooring Works</a></li>
+                           <li><a href="#">Air-Conditioning, Ventilation & Air Filtration</a></li>
+                           <li><a href="#">Systems Installation & Maintenance</a></li>
+                           <li><a href="#">Painting Contracting</a></li>
+                           <li><a href="#">False Ceiling & Light Partitions Installation</a></li>
+                           <li><a href="#">Wallpaper Fixing Works</a></li>
                         </ul>
                      </div>
                   </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6" style="margin-top: 110px; margin-left: 36px; color: white;">
                      <div class="footer-widget-3">
-                        <h4 class="mb-20 footer-title">Latest Post</h4>
-                        <ul class="blog-list">
-                           <li>
-                              <div class="footer-blog-post-box mb-15">
-                                 <figure class="thumb">
-                                    <img src="assets/imgs/blog/blog-s-1.jpg" alt="">
-                                 </figure>
-                                 <div class="content">
-                                    <span class="date"><a href="#">05 Dec, 2024</a></span>
-                                    <h6><a href="blog-details">Best Repairing <br> soakage Roof..</a></h6>
-                                 </div>
-                              </div>
-                           </li>
-                           <li>
-                              <div class="footer-blog-post-box mb-15">
-                                 <figure class="thumb">
-                                    <img src="assets/imgs/blog/blog-s-2.jpg" alt="">
-                                 </figure>
-                                 <div class="content">
-                                    <span class="date"><a href="#">05 Dec, 2024</a></span>
-                                    <h6><a href="blog-details">Doing Things Currently..</a></h6>
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
+                         <h4 class="mb-20 footer-title">Contact Us</h4>
+                         <ul class="contact-list">
+                             <li style="margin-bottom: 15px;">
+                                 <i class="fas fa-phone" style="font-size: 18px; margin-right: 8px;"></i>
+                                 <a href="tel:+971-XX-XXXXXXX">+971-55-890-4487</a>
+                             </li>
+                             <li style="margin-bottom: 15px;">
+                                 <i class="fas fa-envelope" style="font-size: 18px; margin-right: 8px;"></i>
+                                 <a href="mailto:info@companyname.com">info@excellent-vision.com</a>
+                             </li>
+                             <li>
+                                 <i class="fas fa-map-marker-alt" style="font-size: 18px; margin-right: 8px;"></i>
+                                 Burjuman Office Tower Mankhool, Office No L13E70   
+                             </li>
+                         </ul>
                      </div>
                   </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                  <!-- <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                      <div class="footer-widget-4 pr-30">
                         <h4 class="mb-20 footer-title">Newsletter</h4>
                         <p>Sign Up For News & Get 30% Off
@@ -368,14 +460,14 @@
                            </form>
                          </div>  
                      </div>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>
          <div class="small-container">
             <div class="footer-bottom pt-30 pb-30">
                <div class="left-area">
-                  <span>© All Copyright 2024 by <a href="#">wotech</a></span>
+                  <span>© All Copyright by <a href="#">Excellent Vision</a></span>
                </div>
                <div class="right-area">
                   <span><a href="#">Terms & Condition</a></span>
@@ -387,6 +479,10 @@
    </footer>
    <!-- Footer area end -->
    
+   <!-- WhatsApp Floating Button -->
+   <a href="https://wa.me/971542857671?text=Hello%20%F0%9F%91%8B%20Can%20I%20get%20more%20info%3F" class="whatsapp-float" target="_blank">
+     <i class="fa fa-whatsapp whatsapp-icon"></i>
+   </a>
 
    <!-- JS here -->
    <script src="assets/js/jquery-3.7.1.min.js"></script>
